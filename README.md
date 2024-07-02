@@ -1,1 +1,3 @@
 # GDSC-Backend-Class
+# Basic Calculator
+The application is a console-based program using Node.js's readline module for user input and output. It includes a calculate() function for basic arithmetic operations, a convertUnit() function for unit conversions, and a promptUser() function for input. The program starts by greeting the user and calling promptUser(), which asks for calculation ('calc') or conversion ('conv'). The calculate() function uses a switch statement for operations and handles division by zero and invalid operators. The convertUnit() function supports length unit conversions. Basic error handling is included, and the structure allows for easy addition of more operations or conversion types.
